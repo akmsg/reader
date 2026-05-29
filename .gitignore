@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Secrets
+credentials.json
+token.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
