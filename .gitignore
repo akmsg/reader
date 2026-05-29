@@ -8,6 +8,7 @@ build/
 # Secrets
 credentials.json
 token.json
+client_secret_*.json
 
 # IDE
 .idea/

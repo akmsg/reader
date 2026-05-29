@@ -26,8 +26,11 @@ mv ~/Downloads/client_secret_*.json ~/.config/reader/credentials.json
 
 ### 3. Install
 
+Clone the repository and install:
+
 ```bash
-cd /Users/anand.mishra/gopath/src/github.com/reader
+git clone https://github.com/akmsg/reader.git
+cd reader
 pip install -e .
 ```
 
@@ -83,3 +86,7 @@ reader --query "from:noreply@medium.com older_than:30d"
 # Process all emails (including read ones) in a label
 reader --label newsletters --include-read
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
